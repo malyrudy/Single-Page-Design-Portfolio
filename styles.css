@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF7F0;
+    margin: 4.1rem 0;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: black;
+    padding: 0.8rem 2.7rem;
+    border-radius: 1.5rem;
+}
+
+section {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 5rem 0;
+}
+
+.container {
+    width: 77%;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn img {
+    width: 4rem;
+}
+
+/* Design Disciplines */
+.design-disciplines .hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.design-disciplines .hero-text p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 15rem;
+    line-height: 1.4;
+    color: #65625f;
+    margin-bottom: 5rem
+}
+
+.designs p {
+    text-align: left;
+    flex-basis: 100%;
+}
+
+.designs {
+    display: grid;
+    grid-template-columns: 32% repeat(2, 14.5%) 32%;
+}
+
+.designs > * {
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: w;
+}
+
+.graphic-design {
+    background: rgb(132, 90, 194);
+}
+
+.ui-ux {
+    background: rgb(202, 141, 76);
+}
+
+.apps {
+    background: rgb(182, 122, 162);
+}
+
+.photography {
+    background: #4bc6b4;
+}
+
+.illustrations {
+    background: rgb(243, 125, 95);
+}
+
+.motion-graphics {
+    background: rgb(82, 23, 82);
+}
+
+/* Reservations SECTION */
+.reservations {
+    background-color: black;
+    height: 20rem;
+    border-radius: 12px;
+    margin-bottom: 2.8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.reservations h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.reservations p {
+    font-size: 1.2rem;
+    width: 32rem;
+    line-height: 1.3;
+}
+
+.reservations .btn {
+    background: rgb(223, 157, 157);
+}
+
+
+
